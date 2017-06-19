@@ -8,10 +8,10 @@ s.summary = "UsefullFramework lets a user print his name."
 s.requires_arc = true
 
 # 2
-s.version = "2.0.0"
+s.version = "2.1.0"
 
 # 3
-s.license = { :type => "MIT", :file => "LICENSE.txt" }
+s.license = { :type => "MIT", :file => "LICENSE" }
 
 # 4 - Replace with your name and e-mail address
 s.author = { "Di" => "dianaUsik@gmail.com" }
@@ -22,7 +22,6 @@ s.author = { "Di" => "dianaUsik@gmail.com" }
 
 # 5 - Replace this URL with your own Github page's URL (from the address bar)
 s.homepage = "https://github.com/dianaUsyk/UsefullFramework.git"
-echo "2.3" > .swift-version
 
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
@@ -38,5 +37,5 @@ s.framework = "UIKit"
 s.source_files = "UsefullFramework/**/*.{swift}"
 
 # 9
-s.resources = "UsefullFramework/**/*.{png,jpeg,jpg,storyboard,xib}"
+# s.resources = "UsefullFramework/**/*.{png,jpeg,jpg,storyboard,xib}"
 end
